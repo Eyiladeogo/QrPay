@@ -28,7 +28,7 @@ class PageFour extends StatelessWidget {
               textAlign: TextAlign.center,
             ),
             SkipNextButtons(onSkip: (){Navigator.of(context).pushReplacementNamed('page_five');}, onNext: (){
-              Navigator.of(context).pushReplacementNamed('page_four');
+              Navigator.of(context).pushReplacementNamed('page_five');
             })
           ],
         ),
